@@ -22,10 +22,10 @@ auth=tweepy.OAuthHandler(consumer_key1,consumer_secret1)
 auth.set_access_token(access_token1,access_token_secret1)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 # Channel IDs
-discord_channel_id1='993955871438667926'
-discord_channel_id2='993977930386522173'
-discord_channel_id3='1026280943276798064'
-discord_channel_id4='1026283419551940639'
+discord_channel_id1=''
+discord_channel_id2=''
+discord_channel_id3=''
+discord_channel_id4=''
 
 
 
