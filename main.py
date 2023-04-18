@@ -51,19 +51,19 @@ async def on_message(message):
     # Channel ID 1
     if channel == discord_channel_id1:
         api.update_status(message.embeds[0].description)
-        print('Tweet posted from alien fren evo sales')
+        print('Tweet posted from discord_channel_id1')
     # Channel ID 2
     if channel ==discord_channel_id2:
         api.update_status(message.embeds[0].description)
-        print('Tweet posted from alien frens evo mints')
+        print('Tweet posted from discord_channel_id2')
     # Channel ID 3
     if channel ==discord_channel_id3:
         api.update_status(message.embeds[0].description)
-        print('Tweet posted from alien frens ufo sales')
+        print('Tweet posted from discord_channel_id3')
     # Channel ID 4
     if channel ==discord_channel_id4:
         api.update_status(message.embeds[0].description)
-        print('Tweet posted from frens orignals sale')
+        print('Tweet posted from discord_channel_id4')
 
     
 # Initiate bot
